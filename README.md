@@ -1,41 +1,33 @@
-# API de Pedidos
+# API de gerenciamento de pedidos
 
-Projeto desenvolvido como parte de um teste técnico para vaga de Analista de Sistemas Jr.
+API simples desenvolvida em Node.js para gerenciamento de pedidos.
 
 ## Tecnologias
--Node.js
--Express
--JavaScript
+- Node.js
+- Express
+- JavaScript
 
-##Funcionalidades
--Criar pedido
--Buscar pedido por ID
--Listar pedidos
--Atualizar pedido
--Deletar pedido
+## Como executar o projeto
 
-##Endpoints
-POST / order
-Cria um novo pedido.
+1. Clonar o repositório
+git clone https://github.com/evebatista/api-pedidos
 
-GET/order/list
-Lista todos os pedidos.
-
-Get/order/list
-Busca um pedido pelo ID.
-
-PUT/order/:id
-Atualiza um pedido.
-
-DELETE/order/:id
-Remove um pedido.
-
-##Como executar
-Instalar dependências:
+2. Instalar dependências
 npm install
 
-Rodar aplicação:
+3. Executar o servidor
 node server.js
 
-Servidor disponível em:
+Servidor rodará em:
 http://localhost:3000
+
+## Endpoints
+
+Criar pedido
+POST /order
+
+Listar pedidos
+GET /order/list
+
+Buscar pedido
+GET /order/:id
