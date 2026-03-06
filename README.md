@@ -2,7 +2,7 @@
 
 API simples desenvolvida em Node.js para gerenciamento de pedidos.
 
-## Tecnologias
+## Tecnologia
 - Node.js
 - Express
 - JavaScript
